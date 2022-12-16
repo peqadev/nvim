@@ -6,10 +6,10 @@ local keymap = vim.keymap -- for conciseness
 keymap.set("i", "jk", "<ESC>")
 
 keymap.set("n", "<leader>nh", ":nohl<CR>")
-
+keymap.set("n", "<leader>qa", ":qall<cr>") -- closes all tabs and close nvim
 keymap.set("n", "x", '"_x')
-keymap.set("n", "<C-u>", "<C-u>zz")
-keymap.set("n", "<C-d>", "<C-d>zz")
+keymap.set("n", "<C-u>", "<C-u>zz") -- up a page and center the view
+keymap.set("n", "<C-d>", "<C-d>zz") -- down a page and center the view
 
 keymap.set("n", "<leader>+", "<C-a>")
 keymap.set("n", "<leader>-", "<C-x>")
