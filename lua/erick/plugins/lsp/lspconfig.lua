@@ -56,6 +56,24 @@ for type, icon in pairs(signs) do
 	vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
 end
 
+lspconfig["pyright"].setup({
+  on_attach = on_attach,
+	capabilities = capabilities,
+  settings = {
+    pyright = {
+      autoImportCompletion = true,
+    },
+    python = {
+      analysis = {
+        autoSearchPaths = true,
+        diagnosticMode = 'openFilesOnly',
+        useLibraryCodeForTypes = true,
+        typeCheckingMode = 'off'}
+      }
+    }
+  }
+)
+
 -- configure html server
 lspconfig["html"].setup({
 	capabilities = capabilities,
