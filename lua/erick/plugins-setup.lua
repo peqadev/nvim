@@ -98,6 +98,9 @@ return packer.startup(function(use)
   -- terminal overlay
   use("akinsho/toggleterm.nvim") 
 
+  -- the primeagen game
+  use("ThePrimeagen/vim-be-good")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
