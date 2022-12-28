@@ -7,7 +7,7 @@ end
 
 -- configure telescope
 toggleterm.setup({
-  open_mapping = [[--]], 
+  open_mapping = [[¡¡]], 
   hide_numbers = true,
   direction = 'horizontal',
 })

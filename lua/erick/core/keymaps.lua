@@ -40,5 +40,3 @@ keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>") -- list available 
 keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list available help tags
 keymap.set("n", "<leader>gf", "<cmd>Telescope git_files<cr>") -- list available help tags
 
--- toggleterm
--- keymap.set("n", "<leader>tt", "<cmd>ToggleTerm size=40 direction=float<cr>") -- list available help tags
