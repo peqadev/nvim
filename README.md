@@ -2,6 +2,11 @@
 
 This is my personal configuration for nvim. It's still a work in progress, and constantly being updated every time I find something that can either make my development faster or my improve the perfomance of VIM.
 
+## Requirements
+
+1. Install `sudo apt install python3-venv`
+1. Install `sudo apt install python3-pip`
+
 ## Installation
 
 1. Install nvim 0.9+.
